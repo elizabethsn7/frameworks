@@ -4,11 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>PORTFOLIO</title>
-  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -40,7 +41,7 @@
 
     <div class="row text-center">
       <div class="col-md-4">
-        <img class="img-responsive" src="images/lifestyle.png" alt="lifestyle work" data-toggle="modal" data-target="#wedding_app">
+        <img class="img-responsive" src="images/lifestyle.png" alt="lifestyle work" data-toggle="modal" data-target="#photography">
         <h3>Photography</h3>
         <p>
           <a href="www.elizabethkipp.com">Link to website</a>
@@ -48,7 +49,7 @@
       </div>
 
       <div class="col-md-4">
-        <img class="img-responsive" src="images/product.png" alt="product work">
+        <img class="img-responsive" src="images/product.png" alt="product work" data-toggle="modal" data-target="#web">
         <h3>Web</h3>
         <p>
           <a href="https://github.com/elizabethsn7/about-me">Link to Github</a>
@@ -64,17 +65,16 @@
       </div>
     </div>
   </div>
-
-<!-- Modal -->
-<div class="modal fade" id="wedding_app" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <!-- photography Modal -->
+<div class="modal fade" id="photography" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="images/wedding.png">
-        I have been shooting weddings for about 4 years now. I now know that anyone who wants to REALLY learn about their camera and how to adjust to situations constantly should shoot a wedding!
+        <img class="img-responsive" src="images/lifestyle.png">
+        Sometimes I just love photographing people. Capturing humanity as it rolls out is a wonderful documentation of the human spirit.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -84,8 +84,46 @@
 </div>
 <!--End Modal -->
 
-</body>
+<!-- Web Modal -->
+<div class="modal fade" id="web" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/product.png">
+        This image was taken from a shoot I did for a hydraulic filter company located in Chicago, IL. Some of the filters this company produces travel to space as well as some of the most inhospitable places on Earth.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Modal -->
 
+<!-- App Modal -->
+<div class="modal fade" id="wedding_app" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/wedding.png">
+        If you click on the link you can take a wedding style quiz app that I built with some help. It features all of my own photography. This project is still in the final stages of production but you get the idea! Click on the link to play!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Modal -->
+
+
+</body>
 </html>
 
 
