@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
-    color: #763019;
+    color: black;
     font-weight: 300;
 }
 
@@ -18,4 +18,14 @@ body {
 
 .title-logo{
     margin-top: 20px;
+}
+
+li {
+	display: inline-block;
+	font-size: 1.5em;
+	padding-right: 15px;
+}
+
+.top-navigation {
+	margin-left: -10px;
 }

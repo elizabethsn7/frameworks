@@ -383,21 +383,11 @@
   "css": [
     "type.less",
     "grid.less",
+    "forms.less",
+    "navs.less",
+    "navbar.less",
     "modals.less"
   ],
-  "js": [
-    "alert.js",
-    "button.js",
-    "carousel.js",
-    "dropdown.js",
-    "modal.js",
-    "tooltip.js",
-    "popover.js",
-    "tab.js",
-    "affix.js",
-    "collapse.js",
-    "scrollspy.js",
-    "transition.js"
-  ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=c0605d414c6086a1e5bf"
+  "js": [],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=9bf22502b7c0a7b2b3d2"
 }
