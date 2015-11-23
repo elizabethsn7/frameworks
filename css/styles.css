@@ -5,7 +5,7 @@ body {
 }
 
 .text-muted {
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 
 .text-thin {
@@ -28,10 +28,12 @@ li {
 	display: inline-block;
 	font-size: 1.5em;
 	padding-right: 15px;
-	color: #000000;	
+		
 }
 
-
+a {
+	color: #000000;
+}
 
 
 
