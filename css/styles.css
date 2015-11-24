@@ -34,3 +34,8 @@ li {
 a {
   color: #000;
 }
+
+
+@media screen and (max-width: 770px) {
+    .title-logo { display: none; }
+}
