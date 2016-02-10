@@ -2,6 +2,7 @@ body {
   font-family: "Lato", sans-serif;
   color: black;
   font-weight: 300;
+  
 }
 
 .text-muted {
@@ -35,6 +36,9 @@ a {
   color: #000;
 }
 
+.col-sm-8 {
+  padding-left: 0px;
+  }
 
 @media screen and (max-width: 770px) {
     .title-logo { display: none; }
