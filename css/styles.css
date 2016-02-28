@@ -1,3 +1,55 @@
+<<<<<<< HEAD
+body {
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-weight: 300;
+  
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+  float: right;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  padding-right: 15px;
+}
+
+a {
+  color: #000;
+}
+
+.col-sm-8 {
+  padding-left: 0px;
+  }
+
+@media screen and (max-width: 770px) {
+    .title-logo { display: none; }
+}
+
+@media screen and (max-width: 320px) {
+    .title-super { font-size: 50px; }
+}
+||||||| merged common ancestors
+=======
 body {
   font-family: "Lato", sans-serif;
   color: black;
@@ -43,3 +95,4 @@ a {
 @media screen and (max-width: 320px) {
     .title-super { font-size: 50px; }
 }
+>>>>>>> 6aea4d988ec7f2e5fda8feb2c1302480311b9b0e
